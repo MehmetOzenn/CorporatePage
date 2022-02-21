@@ -1,0 +1,31 @@
+.homepage {background-color: #141E27;padding: 20px 200px 0px 200px;position: relative;height: 100vh;}
+.homepage .background-colour { }
+.homepage .background-colour header { display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+.homepage .background-colour header .logo {}
+.homepage .background-colour header .logo img {max-width: 160px;  }
+.homepage .background-colour header .navbar { }
+.homepage .background-colour header .navbar .nav-items {display: flex;flex-direction: row;justify-content: space-between; }
+.homepage .background-colour header .navbar .nav-items .nav-item { padding: 20px;color: #E0DDAA ;text-decoration: none;margin-right: 5px;transition: .2s linear;}
+.homepage .background-colour header .navbar .nav-items .nav-item:hover{color: #DD4A48;}
+.homepage .background-colour header .navbar .nav-items .nav-item .nav-link { color: #E0DDAA !important;font-size: 20px;}
+.homepage .background-colour .main-area { padding: 20px;}
+.homepage .background-colour .main-area .main-text {color: #E0DDAA; }
+.homepage .background-colour .footer-area { position: fixed;right: 0;left: 0;bottom: 0;display: flex;flex-direction: row;justify-content: space-between;padding: 0 200px 10px 200px;align-items: center;}
+.homepage .background-colour .footer-area .logo { }
+.homepage .background-colour .footer-area .logo img {max-width: 160px; }
+.homepage .background-colour .footer-area .copyright {display: flex;flex-direction: row;align-items: center; }
+.homepage .background-colour .footer-area .copyright .copyrightproperty { }
+.homepage .background-colour .footer-area .copyright .copyrightproperty .uil.uil-copyright {color: #E0DDAA;  }
+.homepage .background-colour .footer-area .copyright p {color: #E0DDAA;padding-left: 5px;  }
+.homepage .background-colour .footer-area .copyright .stack {color: #E0DDAA;padding: 0 5px;  }
+.homepage .background-colour .footer-area .copyright .creator {color: #E0DDAA; }
+.homepage .background-colour .footer-area .email{color: #E0DDAA;font-size: 16px;}
+
+/* Teammates CSS */
+.homepage .background-colour .team-main-area {display: flex;flex-direction: row;justify-content: space-between;align-items: center; }
+.homepage .background-colour .team-main-area .team-mate {background-color: #203239;border-radius: 20px;box-shadow: 3px 3px 6px #7a7a7aad;margin-right: 20px;text-align: center;  }
+.homepage .background-colour .team-main-area .team-mate .member-area {padding: 20px; }
+.homepage .background-colour .team-main-area .team-mate .member-area .member-name {color: #E0DDAA; }
+.homepage .background-colour .team-main-area .team-mate .member-area .member-profile {padding: 20px 0; }
+.homepage .background-colour .team-main-area .team-mate .member-area .member-profile .member-profile-img {width: 100%;border-radius: 50%;border: 3px solid #141E27; }
+.homepage .background-colour .team-main-area .team-mate .member-area .member-info {color: #E0DDAA; }
